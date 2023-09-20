@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.Sheme = new System.Windows.Forms.PictureBox();
-            this.buttonscheme = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.Identification = new System.Windows.Forms.Button();
             this.iD = new System.Windows.Forms.GroupBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -66,33 +63,6 @@
             this.Sheme.TabStop = false;
             this.Sheme.Click += new System.EventHandler(this.Sheme_Click);
             // 
-            // buttonscheme
-            // 
-            this.buttonscheme.Location = new System.Drawing.Point(1127, 618);
-            this.buttonscheme.Name = "buttonscheme";
-            this.buttonscheme.Size = new System.Drawing.Size(62, 21);
-            this.buttonscheme.TabIndex = 1;
-            this.buttonscheme.Text = "Схема";
-            this.buttonscheme.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(1195, 618);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 21);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Видео";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // Identification
-            // 
-            this.Identification.Location = new System.Drawing.Point(1318, 618);
-            this.Identification.Name = "Identification";
-            this.Identification.Size = new System.Drawing.Size(117, 21);
-            this.Identification.TabIndex = 3;
-            this.Identification.Text = "Индентификация";
-            this.Identification.UseVisualStyleBackColor = true;
-            // 
             // iD
             // 
             this.iD.Controls.Add(this.textBox4);
@@ -108,7 +78,7 @@
             this.iD.Controls.Add(this.Photo);
             this.iD.Location = new System.Drawing.Point(362, 14);
             this.iD.Name = "iD";
-            this.iD.Size = new System.Drawing.Size(373, 190);
+            this.iD.Size = new System.Drawing.Size(373, 214);
             this.iD.TabIndex = 4;
             this.iD.TabStop = false;
             this.iD.Text = "Основная информация";
@@ -170,7 +140,7 @@
             this.text_the_note.Location = new System.Drawing.Point(77, 140);
             this.text_the_note.Multiline = true;
             this.text_the_note.Name = "text_the_note";
-            this.text_the_note.Size = new System.Drawing.Size(154, 44);
+            this.text_the_note.Size = new System.Drawing.Size(154, 68);
             this.text_the_note.TabIndex = 10;
             this.text_the_note.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -232,7 +202,7 @@
             this.Employee_info.Controls.Add(this.Job_title);
             this.Employee_info.Location = new System.Drawing.Point(678, 377);
             this.Employee_info.Name = "Employee_info";
-            this.Employee_info.Size = new System.Drawing.Size(757, 235);
+            this.Employee_info.Size = new System.Drawing.Size(757, 262);
             this.Employee_info.TabIndex = 6;
             this.Employee_info.TabStop = false;
             this.Employee_info.Text = "Информация о сотруднике";
@@ -246,7 +216,7 @@
             this.Job_title.Controls.Add(this.iD);
             this.Job_title.Location = new System.Drawing.Point(9, 19);
             this.Job_title.Name = "Job_title";
-            this.Job_title.Size = new System.Drawing.Size(741, 210);
+            this.Job_title.Size = new System.Drawing.Size(741, 234);
             this.Job_title.TabIndex = 5;
             this.Job_title.TabStop = false;
             this.Job_title.Text = "Служебная информация";
@@ -299,9 +269,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1450, 642);
             this.Controls.Add(this.Employee_info);
-            this.Controls.Add(this.Identification);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.buttonscheme);
             this.Controls.Add(this.Sheme);
             this.Name = "Main";
             this.Text = "Турникет";
@@ -320,9 +287,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox Sheme;
-        private System.Windows.Forms.Button buttonscheme;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button Identification;
         private System.Windows.Forms.GroupBox iD;
         private System.Windows.Forms.TextBox LastName;
         private System.Windows.Forms.PictureBox Photo;

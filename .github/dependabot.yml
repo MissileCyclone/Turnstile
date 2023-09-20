@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "nuget" # Укажите "nuget" для проектов на C#
+    directory: "/" # Местоположение файлов .csproj или .nuspec
     schedule:
       interval: "weekly"

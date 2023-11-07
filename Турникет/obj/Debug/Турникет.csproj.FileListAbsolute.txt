@@ -17,8 +17,6 @@ C:\Users\missi\OneDrive\Desktop\Турникет\Турникет 15.09.2023\Т�
 C:\Users\missi\OneDrive\Desktop\Турникет\Турникет 15.09.2023\Турникет\obj\Debug\Турникет.csproj.CoreCompileInputs.cache
 C:\Users\missi\OneDrive\Desktop\Турникет\Турникет 15.09.2023\Турникет\obj\Debug\Турникет.exe
 C:\Users\missi\OneDrive\Desktop\Турникет\Турникет 15.09.2023\Турникет\obj\Debug\Турникет.pdb
-C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\Турникет.mdf
-C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\Турникет_log.ldf
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\Турникет.exe.config
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\Турникет.exe
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\Турникет.pdb
@@ -31,7 +29,8 @@ C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\Enti
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\System.Data.SQLite.xml
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.csproj.AssemblyReference.cache
-C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.csproj.SuggestedBindingRedirects.cache
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Выбор_над_метками.resources
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Выбор_над_пользователями.resources
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Main.resources
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Properties.Resources.resources
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.csproj.GenerateResource.cache
@@ -39,3 +38,18 @@ C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Ту
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.csproj.CopyComplete
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.exe
 C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.pdb
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Добавление_меток.resources
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Добавление_пользователей.resources
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Изменение_пользователей.resources
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Удаление_меток.resources
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Удаление_пользователей.resources
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Информация_о_разработке.resources
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Изменение_пользователей_2.resources
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Изымание_метки.resources
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\obj\Debug\Турникет.Присвоение_меток.resources
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\MySql.Data.dll
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\System.Memory.dll
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\System.Buffers.dll
+C:\Users\missi\OneDrive\Desktop\GitHub\Turnstile\Турникет\bin\Debug\MySql.Data.xml

@@ -57,6 +57,10 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data, Version=8.2.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program\MySQL\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -80,21 +84,110 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="DB.cs" />
+    <Compile Include="Выбор над метками.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Выбор над метками.Designer.cs">
+      <DependentUpon>Выбор над метками.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Выбор над пользователями.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Выбор над пользователями.Designer.cs">
+      <DependentUpon>Выбор над пользователями.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Добавление меток.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Добавление меток.Designer.cs">
+      <DependentUpon>Добавление меток.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Добавление пользователей.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Добавление пользователей.Designer.cs">
+      <DependentUpon>Добавление пользователей.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Изменение пользователей 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Изменение пользователей 2.Designer.cs">
+      <DependentUpon>Изменение пользователей 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Изменение пользователей.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Изменение пользователей.Designer.cs">
+      <DependentUpon>Изменение пользователей.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Изымание метки.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Изымание метки.Designer.cs">
+      <DependentUpon>Изымание метки.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Информация о разработке.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Информация о разработке.Designer.cs">
+      <DependentUpon>Информация о разработке.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Присвоение меток.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Присвоение меток.Designer.cs">
+      <DependentUpon>Присвоение меток.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Турникет.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Турникет.Designer.cs">
+      <DependentUpon>Турникет.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ТурникетDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ТурникетDataSet.xsd</DependentUpon>
+    <Compile Include="Удаление меток.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Удаление меток.Designer.cs">
+      <DependentUpon>Удаление меток.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Удаление пользователей.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Удаление пользователей.Designer.cs">
+      <DependentUpon>Удаление пользователей.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Выбор над метками.resx">
+      <DependentUpon>Выбор над метками.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Выбор над пользователями.resx">
+      <DependentUpon>Выбор над пользователями.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Добавление меток.resx">
+      <DependentUpon>Добавление меток.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Добавление пользователей.resx">
+      <DependentUpon>Добавление пользователей.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Изменение пользователей 2.resx">
+      <DependentUpon>Изменение пользователей 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Изменение пользователей.resx">
+      <DependentUpon>Изменение пользователей.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Изымание метки.resx">
+      <DependentUpon>Изымание метки.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Информация о разработке.resx">
+      <DependentUpon>Информация о разработке.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Присвоение меток.resx">
+      <DependentUpon>Присвоение меток.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Турникет.resx">
+      <DependentUpon>Турникет.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -105,6 +198,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Удаление меток.resx">
+      <DependentUpon>Удаление меток.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Удаление пользователей.resx">
+      <DependentUpon>Удаление пользователей.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -115,29 +214,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="ТурникетDataSet.xsc">
-      <DependentUpon>ТурникетDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="ТурникетDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ТурникетDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="ТурникетDataSet.xss">
-      <DependentUpon>ТурникетDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Турникет.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Турникет_log.ldf">
-      <DependentUpon>Турникет.mdf</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
